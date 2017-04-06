@@ -1,56 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="kr.hs.emirim.hyeonjinmirim.friendsimulator.a_room.MainActivity">
+    tools:context="kr.hs.emirim.hyeonjinmirim.friendsimulator.a_room.MainActivity"
+    android:weightSum="1">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
         android:text="아루미 시물레이터" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:text="눈이 마주쳤을때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="75dp" />
+         />
 
     <Button
-    android:id="@+id/button2"
-    android:layout_width="368dp"
-    android:layout_height="wrap_content"
-    android:text="말할때 추임새 넣을때"
-    tools:layout_editor_absoluteX="8dp"
-    tools:layout_editor_absoluteY="141dp" />
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="center"
+        android:text="말할때 추임새 넣을때" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="일본어 하고 있는데 말걸었을때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="206dp" />
+        android:layout_margin="center"
+         />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="괜찮다고 말할때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="276dp" />
+        android:layout_margin="center"
+
+        />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="일본어 왜 하냐고 물을때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:layout_margin="center"
+        />
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
