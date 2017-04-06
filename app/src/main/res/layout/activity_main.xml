@@ -21,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onClick"
         android:text="눈이 마주쳤을때"
          />
 
@@ -28,7 +29,7 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="center"
+        android:layout_margin="3dp"
         android:text="말할때 추임새 넣을때" />
 
     <Button
@@ -36,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="일본어 하고 있는데 말걸었을때"
-        android:layout_margin="center"
+        android:layout_margin="3dp"
          />
 
     <Button
@@ -44,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="괜찮다고 말할때"
-        android:layout_margin="center"
+        android:layout_margin="3dp"
 
         />
 
@@ -53,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="일본어 왜 하냐고 물을때"
-        android:layout_margin="center"
+        android:layout_margin="3dp"
         />
 
 
